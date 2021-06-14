@@ -6,5 +6,5 @@ python -m mask_cyclegan_vc.test \
     --speaker_A_id VCC2SF3 \
     --speaker_B_id VCC2TF1 \
     --ckpt_dir results/mask_cyclegan_vc_VCC2SF3_VCC2TF1/ckpts \
-    --load_epoch 500 \
+    --load_epoch 5 \
     --model_name generator_A2B \

@@ -10,7 +10,7 @@ python -W ignore::UserWarning -m mask_cyclegan_vc.train \
     --speaker_B_id VCC2TF1 \
     --epochs_per_save 100 \
     --epochs_per_plot 10 \
-    --num_epochs 6172 \
+    --num_epochs 10 \
     --decay_after 2e5 \
     --stop_identity_after 1e4 \
     --batch_size 1 \
